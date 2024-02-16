@@ -15,7 +15,7 @@ class Library:
             if title in books:
                 return "This book is in the library"
             else:
-                return "The book was found in the library"
+                return "The book was not found in the library"
         except FileNotFoundError:
             return "File not found"       
 
